@@ -10,7 +10,7 @@ import { carsService } from '../cars.service';
   template: `
   <section>
     <form>
-      <input type="search" placeholder="Filtrar por Marca" #filter>
+      <input type="search" placeholder="Filtrar por Nombre" #filter>
       <button type="button" (click)="filterResults(filter.value)">Buscar</button>
     </form>
   </section>
